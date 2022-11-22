@@ -5,6 +5,7 @@ import Header from './routes/header/header';
 import Homepage from './routes/homepage/homepage';
 import PledgeAndValues from './routes/pledge-and-values/pledgeandvalues';
 import Badges from './routes/badges/badges';
+import Members from './routes/members/members';
 
 function App() {
   return (
@@ -14,11 +15,9 @@ function App() {
         <Routes>
           <Route path='*' element={<Homepage />} />
           <Route path='/' element={<Homepage />} />
-          <Route path='/members' />
-          <Route path='/pictures' />
+          <Route path='/members' element={<Members />}/>
           <Route path='/pledge-and-values' element={<PledgeAndValues />}/>
           <Route path='/badges' element={<Badges />} />
-          <Route path='/games' />
         </Routes>
       </main>
     </>
