@@ -9,7 +9,7 @@ export default function Header () {
       </Navbar.Brand>
       <NavLink className='navLink' to='/pictures'>Pictures</NavLink>
       <NavLink className='navLink' to='/badges'>Badges</NavLink>
-      <NavLink className='navLink' to='/pledgeandvalues'>Pledge and Values</NavLink>
+      <NavLink className='navLink' to='/pledge-and-values'>Pledge and Values</NavLink>
       <NavLink className='navLink' to='/games'>Games</NavLink>
     </Navbar>
   )

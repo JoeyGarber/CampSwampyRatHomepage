@@ -4,6 +4,7 @@ import './App.css'
 import Header from './routes/header/header';
 import Homepage from './routes/homepage/homepage';
 import PledgeAndValues from './routes/pledge-and-values/pledgeandvalues';
+import Badges from './routes/badges/badges';
 
 function App() {
   return (
@@ -11,10 +12,12 @@ function App() {
       <main className="main">
         <Header />
         <Routes>
+          <Route path='*' element={<Homepage />} />
           <Route path='/' element={<Homepage />} />
+          <Route path='/members' />
           <Route path='/pictures' />
-          <Route path='/pledgeandvalues' element={<PledgeAndValues />}/>
-          <Route path='/badges' />
+          <Route path='/pledge-and-values' element={<PledgeAndValues />}/>
+          <Route path='/badges' element={<Badges />} />
           <Route path='/games' />
         </Routes>
       </main>
