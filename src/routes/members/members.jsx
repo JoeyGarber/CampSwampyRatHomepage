@@ -9,12 +9,16 @@ import Maria from "./maria";
 export default function Members () {
   return (
     <>
-      <Joey />
-      <Alison />
-      <Cara />
-      <Maria />
-      <Cole />
-      <Landon />
+      <div className='center'>
+        <div>
+          <Joey />
+          <Alison />
+          <Cara />
+          <Maria />
+          <Cole />
+          <Landon />
+        </div>
+      </div>
     </>
   )
 }
