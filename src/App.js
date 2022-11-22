@@ -3,6 +3,7 @@ import './App.css'
 
 import Header from './routes/header/header';
 import Homepage from './routes/homepage/homepage';
+import PledgeAndValues from './routes/pledge-and-values/pledgeandvalues';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/pictures' />
-          <Route path='/values' />
+          <Route path='/pledgeandvalues' element={<PledgeAndValues />}/>
           <Route path='/badges' />
           <Route path='/games' />
         </Routes>

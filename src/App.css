@@ -1,4 +1,45 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&display=swap');
+
+:root {
+  --riverblue: rgb(20, 150, 212, 0.5);
+  --skyblue: rgb(160, 222, 241);
+}
+
+#root {
+  background-color: var(--skyblue);
+}
+
+html {
+  background-color: var(--skyblue)
+}
+
+text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 125%;
+}
+
+.navbar {
+  background-color: var(--riverblue);
+}
+
+.navbar-brand {
+  padding-left: 0.5em;
+}
+
+.navbar-brand > a {
+  color: white;
+}
+
+.navLink {
+  text-decoration: none;
+  padding: 0 0.35em;
+  color: white;
+}
+
+.title {
+  font-size: 350%;
+  font-family: 'Lilita One', cursive;
   color: black;
 }
 
@@ -6,17 +47,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../pictures/sexy_rat_.JPG");
-  background-size: cover;
+  justify-content: center;
 }
 
-.title {
-  font-size: 250%;
-  color: green;
-  text-shadow: -2px 2px 0 #000,
-  2px 2px 0 #000,
-  2px -2px 0 #000,
-  -2px -2px 0 #000;
+.pledge, .values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pledge > h1, .values > h1 {
+  margin: 0.5em 0;
+}
+
+.pledge > text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.values > text {
+  display: flex;
+  flex-direction: column;
 }
