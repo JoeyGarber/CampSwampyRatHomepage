@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&display=swap');
 
+
+
 :root {
   --riverblue: rgb(20, 150, 212, 0.5);
   --skyblue: rgb(160, 222, 241);
@@ -8,6 +10,10 @@
 
 #root {
   background-color: var(--skyblue);
+}
+
+#logo {
+  padding: 0 0.5em;
 }
 
 html {
@@ -23,10 +29,6 @@ text, p, li {
   background-color: var(--riverblue);
 }
 
-.navbar-brand {
-  padding-left: 0.5em;
-}
-
 .navbar-brand > a {
   color: white;
 }
@@ -36,6 +38,8 @@ text, p, li {
   padding: 0 0.35em;
   color: white;
 }
+
+
 
 .title {
   font-size: 350%;
@@ -48,6 +52,15 @@ text, p, li {
   margin: 0.5em 0;
   font-family: 'Lilita One', cursive;
   color: black;
+}
+
+.subheading-badge {
+  font-size: 200%;
+  margin: 0.5em 0;
+  font-family: 'Lilita One', cursive;
+  color: black;
+  display: inline;
+  padding-right: 0.35em;
 }
 
 .homepage {
