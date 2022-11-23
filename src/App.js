@@ -13,7 +13,6 @@ function App() {
       <main className="main">
         <Header />
         <Routes>
-          <Route path='*' element={<Homepage />} />
           <Route path='/home' element={<Homepage />} />
           <Route path='/members' element={<Members />}/>
           <Route path='/pledge-and-values' element={<PledgeAndValues />}/>
