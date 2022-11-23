@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CampSwampyRatHomepage/static/css/main.1c205cd9.css",
-    "main.js": "/CampSwampyRatHomepage/static/js/main.dccb0537.js",
+    "main.js": "/CampSwampyRatHomepage/static/js/main.d7a0ac6c.js",
     "static/media/sexyrat.JPG": "/CampSwampyRatHomepage/static/media/sexyrat.2b7cefae508f4657be61.JPG",
     "index.html": "/CampSwampyRatHomepage/index.html",
     "main.1c205cd9.css.map": "/CampSwampyRatHomepage/static/css/main.1c205cd9.css.map",
-    "main.dccb0537.js.map": "/CampSwampyRatHomepage/static/js/main.dccb0537.js.map"
+    "main.d7a0ac6c.js.map": "/CampSwampyRatHomepage/static/js/main.d7a0ac6c.js.map"
   },
   "entrypoints": [
     "static/css/main.1c205cd9.css",
-    "static/js/main.dccb0537.js"
+    "static/js/main.d7a0ac6c.js"
   ]
 }
