@@ -39,6 +39,9 @@ text, p, li {
   color: white;
 }
 
+.bold {
+  font-weight: 1000;
+}
 
 .title {
   font-size: 350%;
