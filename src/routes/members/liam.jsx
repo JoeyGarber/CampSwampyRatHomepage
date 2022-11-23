@@ -1,9 +1,9 @@
 import Member from "./member";
 
-export default function Joey () {
+export default function Liam () {
   return (
     <>
-      <Member name='Joey' />
+      <Member name='Liam' />
     </>
   )
 }
