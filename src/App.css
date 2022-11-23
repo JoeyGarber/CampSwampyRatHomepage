@@ -22,7 +22,11 @@ html {
 
 text, p, li {
   font-family: 'Poppins', sans-serif;
-  font-size: 125%;
+  font-size: 150%;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 .navbar {
@@ -37,10 +41,6 @@ text, p, li {
   text-decoration: none;
   padding: 0 0.35em;
   color: white;
-}
-
-.bold {
-  font-weight: 1000;
 }
 
 .title {
@@ -83,15 +83,27 @@ text, p, li {
   margin: 0.5em 0;
 }
 
-.pledge > text {
+.pledge > p {
+  margin: 0 0.2em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.values > text {
+@media (max-width: 960px) {
+  .pledge > p {
+    margin: 0 0.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.values > p {
+  margin: 0 0.2em;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .center {
