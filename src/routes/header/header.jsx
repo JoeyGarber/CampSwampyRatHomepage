@@ -8,7 +8,7 @@ export default function Header () {
       <Navbar expand='md'>
       <span id='logo' className="material-symbols-outlined">spa</span>
         <Navbar.Brand>
-          <Link style={{ textDecoration: 'none' }} to='/home'>Leaf Scouts</Link>
+          <Link style={{ textDecoration: 'none' }} to='/'>Leaf Scouts</Link>
         </Navbar.Brand>
         <NavLink className='navLink' to='/members'>Members</NavLink>
         <NavLink className='navLink' to='/badges'>Badges</NavLink>
