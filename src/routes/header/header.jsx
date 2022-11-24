@@ -1,6 +1,5 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
 import { Link, NavLink } from 'react-router-dom';
 
 export default function Header () {
@@ -18,6 +17,7 @@ export default function Header () {
               <NavLink className='navLink' to='/pledge-and-values'>Pledge and Values</NavLink>
               <NavLink className='navLink' to='/members'>Members</NavLink>
               <NavLink className='navLink' to='/badges'>Badges</NavLink>
+              <NavLink className='navLink' to='/songs'>Songs</NavLink>
             </Nav>
           </Navbar.Collapse>
       </Navbar>
