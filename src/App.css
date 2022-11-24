@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&display=swap');
 
-
-
 :root {
   --riverblue: rgb(20, 150, 212, 0.5);
   --skyblue: rgb(160, 222, 241);
@@ -14,6 +12,7 @@
 
 #logo {
   padding: 0 0.5em;
+  color: white;
 }
 
 html {
